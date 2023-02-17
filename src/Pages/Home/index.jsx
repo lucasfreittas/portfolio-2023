@@ -25,7 +25,7 @@ export function Home(){
             </Header>
 
             <About>
-
+                <p>/ THIS IS ME</p>
             </About>
 
             <Projects>

@@ -10,20 +10,20 @@ export const Container = styled.div`
 
 export const Header = styled.div`
     display: flex;
-    flex-direction: column  ;
+    flex-direction: column;
     width: 100%;
-    max-width: 1350px;
+    padding: 0 11.6%;
 
     > header{
         display: flex;
         width: 100%;
         justify-content: space-between;
-        margin-top: 80px;
+        margin-top: 89px;
         align-items: center;
 
         a {
             position: relative;
-            font-size: 20px;
+            font-size: 22px;
             font-weight: bold;
             color: ${({theme}) => theme.COLORS.GRAY_500};
             gap: 32px;
@@ -56,7 +56,7 @@ export const Header = styled.div`
 
 
         > img {
-            width: 50px;
+            width: 53px;
         };
     };
 
@@ -70,10 +70,10 @@ export const Header = styled.div`
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            font-size: 110px;
-            line-height: 158px;
+            font-size: 120px;
+            line-height: 170px;
             font-weight: bold;
-            margin-top: 74px;
+            margin-top: 90px;
             color: ${({theme}) => theme.COLORS.WHITE};
 
             > h1 {
@@ -82,22 +82,33 @@ export const Header = styled.div`
 
             > span {
                 display: block;
-                margin-top: 45px;
-                width: 80px;
+                margin-top: 50px;
+                width: 87px;
                 background-color: ${({theme}) => theme.COLORS.PURPLE};
-                height: 14px;
+                height: 16px;
             };
         };
 
         > img {
-            height: 580px;
+            height: 630px;
             margin-top: -10px;
         }
 }
 `;
 
 export const About = styled.div`
+    background-color: ${({theme}) => theme.COLORS.BACKGROUND_900};
+    width: 100%;
+    padding: 0 11.6%;
+    margin-top: -35px;
+    z-index: -1;
 
+    > p {
+        margin-top: 120px;
+        font-size: 22px;
+        font-weight: bold;
+        color: ${({theme}) => theme.COLORS.GRAY_500};
+    }
 `;
 
 export const Projects = styled.div`
