@@ -102,6 +102,7 @@ export const About = styled.div`
     padding: 0 11.6%;
     margin-top: -35px;
     z-index: -1;
+    padding-bottom: 120px;
 
     > p {
         margin-top: 120px;
@@ -109,6 +110,11 @@ export const About = styled.div`
         font-weight: bold;
         color: ${({theme}) => theme.COLORS.GRAY_500};
     }
+
+    > .textWraper {
+        display: flex;
+        gap: 270px;
+    };
 `;
 
 export const Projects = styled.div`
